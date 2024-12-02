@@ -26,7 +26,7 @@ class SetupScreen extends StatefulWidget {
 
 class _SetupScreenState extends State<SetupScreen> {
   int _numberOfQuestions = 10;
-  String _selectedCategory = "9"; // Default to General Knowledge
+  String _selectedCategory = "9"; 
   String _selectedDifficulty = "medium";
   String _selectedType = "multiple";
 
@@ -34,7 +34,7 @@ class _SetupScreenState extends State<SetupScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.lightBlue[50],
-      appBar: AppBar(title: Text('Quiz Setup')),
+      appBar: AppBar(title: Text('Quiz Setting')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
